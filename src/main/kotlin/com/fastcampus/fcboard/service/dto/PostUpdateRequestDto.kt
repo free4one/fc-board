@@ -1,14 +1,14 @@
-package com.fastcampus.fcboard.dto
+package com.fastcampus.fcboard.service.dto
 
 /**
  * <p></p>
  *
  * <ul>
- *     <li>Updated on : 3/29/24</li>
+ *     <li>Updated on : 4/1/24</li>
  *     <li>Updated by : spd2team</li>
  * </ul>
  */
-data class PostUpdateRequest(
+data class PostUpdateRequestDto(
     val title: String,
     val content: String,
     val updatedBy: String,

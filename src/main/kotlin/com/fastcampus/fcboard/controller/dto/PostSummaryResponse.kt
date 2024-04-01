@@ -1,4 +1,4 @@
-package com.fastcampus.fcboard.dto
+package com.fastcampus.fcboard.controller.dto
 
 /**
  * <p></p>
@@ -8,8 +8,9 @@ package com.fastcampus.fcboard.dto
  *     <li>Updated by : spd2team</li>
  * </ul>
  */
-data class PostCreateRequest(
+data class PostSummaryResponse(
+    val id: Long,
     val title: String,
-    val content: String,
     val createdBy: String,
+    val createdAt: String,
 )
