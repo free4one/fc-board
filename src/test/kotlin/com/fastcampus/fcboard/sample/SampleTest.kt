@@ -1,4 +1,4 @@
-package com.fastcampus.fcboard
+package com.fastcampus.fcboard.sample
 
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
